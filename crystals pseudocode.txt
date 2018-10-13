@@ -1,0 +1,9 @@
+target number: generate random from 10 to 40
+
+crystal values: 1,2,3,5
+
+if win: set score to 0, add 1 to wins, reload random crystal values, reload target number
+
+if lose (aka if score = higher than target number): set score to 0, add 1 to loses, reload random crystal values, reload target number
+
+crystal values are unique, as in no 2 crystals can have same value
